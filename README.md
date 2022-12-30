@@ -14,6 +14,14 @@
 
 است.
 
+
+## لینک دانلود
+
+برای دانلود به آدرس زیر مراجعه کنید:
+
+https://github.com/peditx/PeDitXrt/releases
+
+
 ## کوتاه از این پروژ
 
 همانطور که پروژه [immortalwrt](https://github.com/immortalwrt/immortalwrt) یک برداشت از [openwrt](https://github.com/openwrt/openwrt) برای استفاده روزانه مردم کشور چین است پروژه [**PeDitXrt**](https://github.com/peditx/PeDitXrt) نیز برداشتی از این دو پروژه برای کارهای روزانه فارسی زبانان است.
