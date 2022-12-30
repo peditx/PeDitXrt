@@ -62,6 +62,14 @@
   - Support Chat: group [@ctcgfw_openwrt_discuss](https://t.me/ctcgfw_openwrt_discuss) on [Telegram](https://telegram.org/).
   - Support Chat: group [#immortalwrt](https://matrix.to/#/#immortalwrt:matrix.org) on [Matrix](https://matrix.org/).
 
+## تشکر ویژه
+[immortalwrt](https://github.com/immortalwrt/immortalwrt)
+
+
+[openwrt](https://github.com/openwrt/openwrt)
+
+
+[**P3TERX**](https://p3terx.com)
 
 ## لایسنس ها
 [**PeDitX**](https://peditx.ir) © 2023
