@@ -59,7 +59,7 @@ https://github.com/peditx/PeDitXrt/releases
 
   - [کانال تلگرامی](https://t.me/pedittechs)
   - [گروه تلگرامی](https://t.me/iranopenwrt)
-  - [کانال یوتیوب](https://youtu.be/@pedittechs1297)
+  - [کانال یوتیوب](https://www.youtube.com/@pedittechs1297)
   - [ImmortalWrt Packages](https://github.com/immortalwrt/packages): Community repository of ported packages.
   - [OpenWrt Routing](https://github.com/openwrt/routing): Packages specifically focused on (mesh) routing.
   - [CONTRIBUTED.md](https://github.com/immortalwrt/immortalwrt/blob/master/CONTRIBUTED.md): the 3rd-party packages we introduced.
