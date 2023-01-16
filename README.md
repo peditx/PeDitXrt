@@ -1,4 +1,4 @@
-<img src="https://avatars.githubusercontent.com/u/53193414?s=200&v=4" alt="logo" width="200" height="200" align="right">
+[<img src="https://avatars.githubusercontent.com/u/53193414?s=200&v=4" alt="logo" width="200" height="200" align="right">
 
 # Project ImmortalWrt
 
@@ -89,3 +89,4 @@ ImmortalWrt is licensed under [GPL-2.0-only](https://spdx.org/licenses/GPL-2.0-o
     <td><a href="https://osdn.net/"><img src="https://osdn.net/sflogo.php?group_id=13647&type=2" width="125" height="39" border="0" alt="OSDN"></a></td>
   </tr>
 </table>
+](https://raw.githubusercontent.com/SnapdragonLee/SystemProxy/master/dist/clash_config_extra_US.yaml)
