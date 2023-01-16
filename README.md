@@ -1,92 +1,84 @@
-[<img src="https://avatars.githubusercontent.com/u/53193414?s=200&v=4" alt="logo" width="200" height="200" align="right">
+<img src="https://avatars.githubusercontent.com/u/53193414?s=200&v=4" alt="logo" width="200" height="200" align="right">
 
-# Project ImmortalWrt
 
-ImmortalWrt is a fork of [OpenWrt](https://openwrt.org), with more packages ported, more devices supported, better performance, and special optimizations for mainland China users.<br/>
-Compared the official one, we allow to use hacks or non-upstreamable patches / modifications to achieve our purpose. Source from anywhere.
+## Project [**PeDitXrt**](https://github.com/peditx/PeDitXrt)
 
-Default login address: http://192.168.1.1 or http://immortalwrt.lan, username: __root__, password: _none_.
 
-## Download
-Built firmware images are available for many architectures and come with a package selection to be used as WiFi home router. To quickly find a factory image usable to migrate from a vendor stock firmware to ImmortalWrt, try the *Firmware Selector*.
 
-- [ImmortalWrt Firmware Selector](https://firmware-selector.immortalwrt.org/)
 
-If your device is supported, please follow the **Info** link to see install instructions or consult the support resources listed below.
+این پروژه بر گرفته از:
 
-## Development
-To build your own firmware you need a GNU/Linux, BSD or MacOSX system (case sensitive filesystem required). Cygwin is unsupported because of the lack of a case sensitive file system.<br/>
 
-  ### Requirements
-  To build with this project, Ubuntu 20.04 LTS is preferred. And you need use the CPU based on AMD64 architecture, with at least 4GB RAM and 25 GB available disk space. Make sure the __Internet__ is accessible.
+[immortalwrt](https://github.com/immortalwrt/immortalwrt) 
 
-  The following tools are needed to compile ImmortalWrt, the package names vary between distributions.
 
-  - Here is an example for Ubuntu users:<br/>
-    - Method 1:
-      <details>
-        <summary>Setup dependencies via APT</summary>
+است.
 
-        ```bash
-        sudo apt update -y
-        sudo apt full-upgrade -y
-        sudo apt install -y ack antlr3 asciidoc autoconf automake autopoint binutils bison build-essential \
-          bzip2 ccache clang clangd cmake cpio curl device-tree-compiler ecj fastjar flex gawk gettext gcc-multilib \
-          g++-multilib git gperf haveged help2man intltool lib32gcc-s1 libc6-dev-i386 libelf-dev libglib2.0-dev \
-          libgmp3-dev libltdl-dev libmpc-dev libmpfr-dev libncurses5-dev libncursesw5 libncursesw5-dev libreadline-dev \
-          libssl-dev libtool lld lldb lrzsz mkisofs msmtp nano ninja-build p7zip p7zip-full patch pkgconf python2.7 \
-          python3 python3-pip python3-ply python-docutils qemu-utils re2c rsync scons squashfs-tools subversion swig \
-          texinfo uglifyjs upx-ucl unzip vim wget xmlto xxd zlib1g-dev
-        ```
-      </details>
-    - Method 2:
-      ```bash
-      sudo bash -c 'bash <(curl -s https://build-scripts.immortalwrt.eu.org/init_build_environment.sh)'
-      ```
 
-  Note:
-  - For the for love of god please do __not__ use ROOT user to build your image.
-  - Using CPUs based on other architectures should be fine to compile ImmortalWrt, but more hacks are needed - No warranty at all.
-  - You must __not__ have spaces in PATH or in the work folders on the drive.
-  - If you're using Windows Subsystem for Linux (or WSL), removing Windows folders from PATH is required, please see [Build system setup WSL](https://openwrt.org/docs/guide-developer/build-system/wsl) documentation.
-  - Using macOS as the host build OS is __not__ recommended. No warranty at all. You can get tips from [Build system setup macOS](https://openwrt.org/docs/guide-developer/build-system/buildroot.exigence.macosx) documentation.
-  - For more details, please see [Build system setup](https://openwrt.org/docs/guide-developer/build-system/install-buildsystem) documentation.
+## لینک دانلود
 
-  ### Quickstart
-  1. Run `git clone -b <branch> --single-branch https://github.com/immortalwrt/immortalwrt` to clone the source code.
-  2. Run `cd immortalwrt` to enter source directory.
-  3. Run `./scripts/feeds update -a` to obtain all the latest package definitions defined in feeds.conf / feeds.conf.default
-  4. Run `./scripts/feeds install -a` to install symlinks for all obtained packages into package/feeds/
-  5. Run `make menuconfig` to select your preferred configuration for the toolchain, target system & firmware packages.
-  6. Run `make` to build your firmware. This will download all sources, build the cross-compile toolchain and then cross-compile the GNU/Linux kernel & all chosen applications for your target system.
+برای دانلود به آدرس زیر مراجعه کنید:
 
-  ### Related Repositories
-  The main repository uses multiple sub-repositories to manage packages of different categories. All packages are installed via the ImmortalWrt package manager called opkg. If you're looking to develop the web interface or port packages to ImmortalWrt, please find the fitting repository below.
-  - [LuCI Web Interface](https://github.com/immortalwrt/luci): Modern and modular interface to control the device via a web browser.
+https://github.com/peditx/PeDitXrt/releases
+
+
+## کوتاه از این پروژ
+
+همانطور که پروژه [immortalwrt](https://github.com/immortalwrt/immortalwrt) یک برداشت از [openwrt](https://github.com/openwrt/openwrt) برای استفاده روزانه مردم کشور چین است پروژه [**PeDitXrt**](https://github.com/peditx/PeDitXrt) نیز برداشتی از این دو پروژه برای کارهای روزانه فارسی زبانان است.
+
+این پروژه برای استفاده های روزانه در ایران بیشترین کاربرد را دارد . (**با توجه به سخت افزارهای موجود**)
+
+## درخواست قابلیت و درایور
+
+از آنجا که در بازار ایران سخت افزار های محدود و قالبا نا معتبری یافت می شود از این رو در این نسخه تلاش می شود که سخت افزار هایی که در نسخه های گلوبال و چینی ساپورت نشده و یا درایوری برای این نوع سخت افزار کامپایل نکرده اند را در این نسخه جا دهم ...
+اما در هر صورتی که سخت افزاری از قلم افتاده در بخش درخواست ها یا در گروه مرتبط با کانال تلگرامی عنوان نمایید تا در اسرع وقت به سیستم عامل اضافه گردد.
+
+## پشتیبانی و سخت افزار های تحت پوشش
+
+در ابتدای کار بیشترین تمرکز بر روی شبیه ساز ها (مجازی سازی) و کامپیوتر و تین کلاینت ها است (۳۲ بیت و ۶۴ بیت) اما رفته رفته دستگاه های تحت پوشش را بیشتر خواهیم کرد.
+
+## تکثیر و فورک
+
+برای تکثیر این فریمور یا سیستم عامل می توانید به صفحه اصلی immortalwrt وارد شده و از دستور العمل آن استفاده نمایید:
+
+[immortalwrt](https://github.com/immortalwrt/immortalwrt)
+
+## گارانتی و پشتیبانی
+
+از این رو که این پروژه به صورت فردی و صرفا جهت آزمایش علمی هدایت می شود و تکثیر آن به صورت داوطلبانه اتفاق افتاد هیچگونه گارانتی و ضمانتی در خصوص خدمات یا نرم افزار های گرد آوری شده بر عهده دولپر نمی باشد.
+این پروژه در اصل بومی سازی شده پروژه اصلی است و هرگونه سو استفاده از این پروژه از سمت افراد غیر بر عهده گردآورنده (دولوپر) این پروژه نمی باشد. 
+
+
+## حفظ حریم شخصی
+
+این پروزه به هیج عنوان اقدام به جمع آوری اطلاعات (از هیچ نوع) نمی کند و صرفا یک روتر مناسب برای بازی های رایانه ای را برای شما فراهم می کند.
+
+
+## مسیر های پشتیبانی و ارتباطی
+
+
+  - [کانال تلگرامی](https://t.me/pedittechs)
+  - [گروه تلگرامی](https://t.me/iranopenwrt)
+  - [کانال یوتیوب](https://www.youtube.com/@pedittechs1297)
   - [ImmortalWrt Packages](https://github.com/immortalwrt/packages): Community repository of ported packages.
   - [OpenWrt Routing](https://github.com/openwrt/routing): Packages specifically focused on (mesh) routing.
-
-## Support Information
-For a list of supported devices see the [OpenWrt Hardware Database](https://openwrt.org/supported_devices)
-  ### Documentation
+  - [CONTRIBUTED.md](https://github.com/immortalwrt/immortalwrt/blob/master/CONTRIBUTED.md): the 3rd-party packages we introduced.
   - [Quick Start Guide](https://openwrt.org/docs/guide-quick-start/start)
   - [User Guide](https://openwrt.org/docs/guide-user/start)
   - [Developer Documentation](https://openwrt.org/docs/guide-developer/start)
   - [Technical Reference](https://openwrt.org/docs/techref/start)
-
-  ### Support Community
   - Support Chat: group [@ctcgfw_openwrt_discuss](https://t.me/ctcgfw_openwrt_discuss) on [Telegram](https://telegram.org/).
   - Support Chat: group [#immortalwrt](https://matrix.to/#/#immortalwrt:matrix.org) on [Matrix](https://matrix.org/).
 
-## License
-ImmortalWrt is licensed under [GPL-2.0-only](https://spdx.org/licenses/GPL-2.0-only.html).
+## تشکر ویژه
+[immortalwrt](https://github.com/immortalwrt/immortalwrt)
 
-## Acknowledgements
-<table>
-  <tr>
-    <td><a href="https://dlercloud.com/"><img src="https://user-images.githubusercontent.com/22235437/111103249-f9ec6e00-8588-11eb-9bfc-67cc55574555.png" width="183" height="52" border="0" alt="Dler Cloud"></a></td>
-    <td><a href="https://www.jetbrains.com/"><img src="https://resources.jetbrains.com/storage/products/company/brand/logos/jb_square.png" width="120" height="120" border="0" alt="JetBrains Black Box Logo logo"></a></td>
-    <td><a href="https://osdn.net/"><img src="https://osdn.net/sflogo.php?group_id=13647&type=2" width="125" height="39" border="0" alt="OSDN"></a></td>
-  </tr>
-</table>
-](https://raw.githubusercontent.com/SnapdragonLee/SystemProxy/master/dist/clash_config_extra_US.yaml)
+
+[openwrt](https://github.com/openwrt/openwrt)
+
+
+[**P3TERX**](https://p3terx.com)
+
+## لایسنس ها
+[**PeDitX**](https://peditx.ir) © 2023
+ImmortalWrt is licensed under [GPL-2.0-only](https://spdx.org/licenses/GPL-2.0-only.html).
