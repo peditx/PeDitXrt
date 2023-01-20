@@ -23,7 +23,7 @@ https://github.com/peditx/PeDitXrt/releases
 
 ## راهنمای نصب آسان
 
-بعد از دانلود فایل آیزو به کمک نرم افزار [روفوس[(https://github.com/pbatard/rufus/releases/download/v3.21/rufus-3.21.exe) فلش را بوتیبل کرده
+بعد از دانلود فایل آیزو به کمک نرم افزار [روفوس](https://github.com/pbatard/rufus/releases/download/v3.21/rufus-3.21.exe) فلش را بوتیبل کرده
 و سپس در دستگاه فرار دهید
 بعد از بوت کامل دستور زیر را وارد نموده و تا ریبوت دستگا صبر کنید
 
