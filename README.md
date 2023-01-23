@@ -31,6 +31,10 @@ bash start.sh
 
 فلش را از دستگاه خارج نمایید
 
+## نصب ریپازیتوری PeDitX-repo
+
+برای نصب و بروز رسانی نرم افزار های خود به [PeDitX-Repo](https://github.com/peditx/PeDitX-repo) مراجعه نمایید و از دستورات و راهنمای آن استفاده کنید
+
 ## کوتاه از این پروژ
 
 همانطور که پروژه [immortalwrt](https://github.com/immortalwrt/immortalwrt) یک برداشت از [openwrt](https://github.com/openwrt/openwrt) برای استفاده روزانه مردم کشور چین است پروژه [**PeDitXrt**](https://github.com/peditx/PeDitXrt) نیز برداشتی از این دو پروژه برای کارهای روزانه فارسی زبانان است.
