@@ -23,13 +23,14 @@ https://github.com/peditx/PeDitXrt/releases
 
 ## راهنمای نصب آسان
 
-بعد از دانلود فایل آیزو به کمک نرم افزار [روفوس](https://github.com/pbatard/rufus/releases/download/v3.21/rufus-3.21.exe) فلش را بوتیبل کرده
+بعد از دانلود فایل [آیزو نصب](https://github.com/peditx/XrtMaker/releases/download/Os101/PeDitXOS.iso) آسان به کمک نرم افزار [روفوس](https://github.com/pbatard/rufus/releases/download/v3.21/rufus-3.21.exe) فلش را بوتیبل کرده
 و سپس در دستگاه قرار دهید
 بعد از بوت کامل دستور زیر را وارد نموده و تا ریبوت دستگاه صبر کنید
 
 bash start.sh
 
 فلش را از دستگاه خارج نمایید
+لینک دانلود فایل نصب آسان : https://github.com/peditx/XrtMaker/releases/download/Os101/PeDitXOS.iso
 
 ## نصب ریپازیتوری PeDitX-repo
 
