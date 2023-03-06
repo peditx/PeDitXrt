@@ -811,6 +811,19 @@ define Device/jcg_q20
 endef
 TARGET_DEVICES += jcg_q20
 
+define Device/jcg_q20-lzma-loader
+  $(Device/uimage-lzma-loader)
+  $(Device/jcg_q20)
+  DEVICE_MODEL += (lzma-loader)
+endef
+TARGET_DEVICES += jcg_q20-lzma-loader
+
+define Device/jcg_q20-pb-boot
+  $(Device/jcg_q20)
+  DEVICE_MODEL += (pb-boot)
+endef
+TARGET_DEVICES += jcg_q20-pb-boot
+
 define Device/jcg_y2
   $(Device/dsa-migration)
   $(Device/uimage-lzma-loader)
@@ -1229,6 +1242,25 @@ define Device/planex_vr500
   SUPPORTED_DEVICES += vr500
 endef
 TARGET_DEVICES += planex_vr500
+
+define Device/raisecom_msg1500-x-00
+  $(Device/dsa-migration)
+  $(Device/uimage-lzma-loader)
+  BLOCKSIZE := 128k
+  PAGESIZE := 2048
+  KERNEL_SIZE := 4096k
+  IMAGE_SIZE := 129280k
+  UBINIZE_OPTS := -E 5
+  IMAGE/sysupgrade.bin := sysupgrade-tar | append-metadata
+  DEVICE_VENDOR := RAISECOM
+  DEVICE_MODEL := MSG1500
+  DEVICE_VARIANT := X.00
+  DEVICE_ALT0_VENDOR := Nokia
+  DEVICE_ALT0_MODEL := A-040W-Q
+  DEVICE_PACKAGES := kmod-mt7615e kmod-mt7615-firmware kmod-usb3 \
+	kmod-usb-ledtrig-usbport uboot-envtools
+endef
+TARGET_DEVICES += raisecom_msg1500-x-00
 
 define Device/samknows_whitebox-v8
   $(Device/dsa-migration)
