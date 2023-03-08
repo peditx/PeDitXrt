@@ -30,6 +30,9 @@ https://github.com/peditx/PeDitXrt/releases
 bash start.sh
 
 فلش را از دستگاه خارج نمایید
+
+
+
 لینک دانلود فایل نصب آسان : 
 
 PeDitXOS-X64 : https://github.com/peditx/PeDitXrt/releases/download/PDXOS-V101/PeDitXOS-X64.iso
